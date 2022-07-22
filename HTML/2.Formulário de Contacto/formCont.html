@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Contacto</title>
+
+<style>
+    body{
+        background-color: black;
+        color: bisque;
+        font-size: 20pt;
+    }
+    fieldset{
+        inline-size: 20em;
+    }
+    legend{
+        font-size: 30pt;
+    }
+    button{
+        font-size: large;
+    }
+
+</style>
+
+</head>
+<body>
+    
+<form>
+    <fieldset>
+        <legend>Entre em contacto</legend>
+<p>
+        <label for="subject">Assunto:</label>
+        <select name="subject" id="subject">
+            <option value="support">Suporte</option>
+            <option value="sugestion">Sugestão</option>
+            <option value="reclamation">Reclamação</option>
+            <option value="other">Outro...</option>
+        </select>    
+</p>
+
+<p>
+        <label>
+            Nome Completo:
+<br>
+            <input type="text"
+            placeholder="O seu nome">
+        </label>    
+</p>
+
+<p>
+        <label for="email">Email</label>
+<br>
+        <input type="email" 
+        pattern=".+@gmail.com" 
+        placeholder=" Digite o seu email"
+        required
+        title="Use o formato email@gmail.com"> 
+</p>
+
+<p>
+        <label for="sms">Mensagem</label>
+<br>
+        <textarea name="sms" 
+        id="sms" 
+        cols="30" 
+        rows="10">Saudações!</textarea>
+</p>       
+        <input type="checkbox" 
+        id="news"
+        name="news">
+        <label for="news">Aceito Receber Novidades por Email</label>
+ <br>   
+        <button type="submit" >Enviar</button>
+
+    </fieldset>
+</form>
+
+
+</body>
+</html>

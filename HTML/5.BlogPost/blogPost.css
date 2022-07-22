@@ -1,0 +1,54 @@
+body{
+    background-color: rgb(69, 38, 0);
+    font: italic 30pt Times;
+    color:rgb(211, 202, 202)
+}
+
+header{
+    
+    background-image: url(../../assets/chavenaCoffe.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: 100% 120%;
+    background-position-y: top;
+    margin: 0cm 3cm;
+    border: 50px solid rgb(51, 19, 5);
+
+}
+
+h1{
+    padding:2%;
+    font-size: 80pt ;
+    color:rgb(211, 202, 202)
+}
+
+a{
+    font-size: 40pt;
+    color: rgb(95, 64, 14);
+}
+
+nav{
+    border: 2px solid rgb(255, 254, 254);
+    width: 200px;
+    background-color: rgba(242, 216, 192, 0.92);
+}
+
+h2{
+    font-size: 60pt;
+    
+}
+
+div{
+    border: 2px solid pink;
+    width: 505px;
+}
+
+em{
+    font-size: 20pt;
+    color: black;
+}
+
+legend{
+    font-size: 60pt;
+    color:rgb(0, 0, 0)
+}
