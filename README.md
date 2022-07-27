@@ -1,122 +1,82 @@
-# Desafios [Rocketseat](https://rocketseat.com.br/)
+# Desafios Rocketseat
 
-> A ROCKETSEAT apresenta uma variedade de desafios desde o nível iniciante ao mais aperfeiçoado com o uso das tecnologias HTML, CSS e JavaScript.
+> A [Rocketseat](https://rocketseat.com.br/) apresenta uma variedade de desafios desde o nível iniciante ao mais aperfeiçoado com o uso das tecnologias HTML, CSS e JavaScript.
 
 
 # Desafios HTML
 
-## 1. Glossário
+## 1. [Glossário](https://mellcosta.github.io/desafiosRocketseat/HTML/1.Gloss%C3%A1rio/glossary.html) 
+<img src="./assets/gloss.png" alt="Modelo do Glossário" width="300px" height="200px" >
+
+### 💻 [Sobre o desafio](./HTML/1.Gloss%C3%A1rio/aboutGlossary.md)
+
+---
+
+### ~🌈🦄Click on [print](./assets/glossaryMel.png) or <a href="https://mellcosta.github.io/desafiosRocketseat/HTML/1.Gloss%C3%A1rio/glossary.html" target="_blank" >real</a> to see my design:
+
+---
+---
+
+## 2. [Formulário de Contacto](https://mellcosta.github.io/desafiosRocketseat/HTML/2.Formul%C3%A1rio%20de%20Contacto/formCont.html) 
+<img src="./assets/form-contato.png" alt="Modelo do Formulário" width="300px" height="200px" >
+
+### 💻 [Sobre o desafio](./HTML/2.Formul%C3%A1rio%20de%20Contacto/aboutForm.md)
+
+---
+
+### ~🌈🦄Click on [print](./assets/formContactMel.png) or <a href="https://mellcosta.github.io/desafiosRocketseat/HTML/2.Formul%C3%A1rio%20de%20Contacto/formCont.html" target="_blank" >real</a> to see my design:
+
+---
+---
 
 ### 💻 Sobre o desafio
 
 ---
 
-Nesse desafio você deve criar um glossário com no mínimo 4 tags HTML e suas definições.
+## 3. [ Lista de compras](https://mellcosta.github.io/desafiosRocketseat/HTML/3.Lista%20de%20compras/listaCompras.html) 
+<img src="./assets/shopping-list.png" alt="Modelo do Formulário" width="200px" height="250px" >
 
-
-```
-Modelo Proposto
-```
-![Modelo do Glossário](./assets/gloss.png)
-
-```
-Mel Design
-```
-<a href="./HTML/1.Gloss%C3%A1rio/glossary.html" target="_blank" > <img src= "./assets/glossaryMel.png" alt="Meu Glossário"> </a>
+### 💻 [Sobre o desafio](./HTML/3.Lista%20de%20compras/aboutList.md)
 
 ---
 ---
-<br>
 
-## 2. Formulário de Contacto
-
-### 💻 Sobre o desafio
+### ~🌈🦄Click on [print](./assets/listaComprasMel.png) or <a href="https://mellcosta.github.io/desafiosRocketseat/HTML/3.Lista%20de%20compras/listaCompras.html" target="_blank" >real</a> to see my design:
 
 ---
 
-Nesse desafio você vai criar um formulário para contato.
+## 4. [Quiz](https://mellcosta.github.io/desafiosRocketseat/HTML/4.Quiz/quiz.html) 
+<img src="./assets/quiz.png" alt="Modelo do Formulário" width="200px" height="250px" >
 
-Para esse desafio, recomendamos que você assista ao curso [Formulários de Outro Planeta](https://app.rocketseat.com.br/node/formularios-de-outro-planeta), caso ainda não tenha assistido. 
-
-```
-Modelo Proposto
-```
-
-![Modelo do Formulário](./assets/form-contato.png)
-
-```
-Mel Design
-```
-![Meu Formulário](./assets/formContactMel.png)
+### 💻 [Sobre o desafio](./HTML/4.Quiz/aboutQuiz.md)
 
 ---
 ---
-<br>
 
-## 3. Lista de compras
-
-### 💻 Sobre o desafio
+### ~🌈🦄Click on [print](./assets/narutoQuiz.PNG) or <a href="https://mellcosta.github.io/desafiosRocketseat/HTML/4.Quiz/quiz.html" target="_blank" >real</a> to see my design:
 
 ---
 
-Nesse exercício você deve criar uma lista de compras que tenha no mínimo 4 itens. 
+## 5. [Blog Post](https://mellcosta.github.io/desafiosRocketseat/HTML/5.BlogPost/blogPost.html) 
+<img src="./assets/blogPost.png" alt="Modelo do Formulário" width="200px" height="150px" >
 
-Pode ser uma lista de compras de mercado, uma lista de itens que você deseja comprar, ou qualquer outro tipo de lista de compras.
-
-```
-Modelo Proposto
-```
-
-![Modelo da Lista de Compras](./assets/shopping-list.png)
-
-```
-Mel Design
-```
-![Minha Lista de Compras](./assets/listaComprasMel.png)
+### 💻 [Sobre o desafio](./HTML/5.BlogPost/aboutBlogPost.md)
 
 ---
 ---
-<br>
 
-## 4.Quiz
-
-### 💻 Sobre o desafio
+### ~🌈🦄Click on [print](./assets/coffeeBlog.PNG) or <a href="https://mellcosta.github.io/desafiosRocketseat/HTML/5.BlogPost/blogPost.html" target="_blank" >real</a> to see my design:
 
 ---
+# Desafios HTML-CSS
 
-Nesse desafio você deve criar um quiz de perguntas e respostas. 
+## 5. [Social Tree](https://mellcosta.github.io/desafiosRocketseat/HTML-CSS/1.Social%20Tree/socialTree.html) 
+<img src="./assets/blogPost.png" alt="Modelo do Formulário" width="200px" height="150px" >
 
-Adicione no mínimo 3 perguntas com 4 opções de respostas cada. 
-
-Você pode escolher qual o tema do quiz.
-
-
-```
-Modelo Proposto
-```
-
-![Modelo do Quiz](./assets/quiz.png)
-
-```
-Mel Design
-```
-![Meu Quiz](./assets/narutoQuiz.PNG)
-
-## 5. Blog Post
-
-### 💻 Sobre o desafio
+### 💻 [Sobre o desafio](./HTML-CSS/1.Social%20Tree/aboutSocialTree.md)
 
 ---
+---
 
-Nesse desafio você deve criar a estrutura **HTML** para a página de post de um blog.
+### ~🌈🦄Click on [print](#) or <a href="#" target="_blank" >real</a> to see my design:
 
-```
-Modelo Proposto
-```
-
-![Modelo do Blog Post](./assets/blogPost.png)
-
-```
-Mel Design
-```
-![Meu Blog Post](./assets/coffeeBlog.PNG)

@@ -62,3 +62,5 @@ Ao finalizar o desafio você vai ter um resultado parecido com o da imagem abaix
 
 Lembrando que as imagens e textos abaixo são ilustrativos e você pode adicionar seu próprio conteúdo conforme as instruções acima.
 ![Modelo do Glossário](../../assets/gloss.png)
+
+### ~ 🌈🦄<a href="https://mellcosta.github.io/desafiosRocketseat/HTML/1.Gloss%C3%A1rio/glossary.html" target="_blank" >Click here</a> to see my design:
