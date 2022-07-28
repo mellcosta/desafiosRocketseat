@@ -1,0 +1,52 @@
+@import url('https://github.com/itfoundry/Poppins');
+*{
+    margin: 1% auto;
+    padding: 0 auto;
+    font-family:'Poppins', sans-serif;
+    font-weight: 300;
+    background-color: #ffffff;
+    color: #BB99DD;
+    text-align: center;
+}
+html:hover{
+    border: 2px solid #efe9ff;
+    transition: 5%;
+}
+
+.profile{
+    box-sizing: border-box;
+    border: 6px double;
+    border-radius: 100% ;
+    margin-top: 2%;
+}
+
+li{
+    list-style: none;
+    border: 2px solid #BB99DD;
+    border-radius: 2px;
+    width: 300px;
+    height: 30px;
+    padding-top: 10px;
+    margin-left: 39%;
+}
+li:hover{
+
+    border: 2px solid #e6cef9;
+}
+a{
+    text-decoration: none;
+}
+
+.social{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    padding: 0 5px;
+    display: inline;
+}
+#mel{
+    margin-top: 100px;
+    color: #b469f2;
+
+}
+
