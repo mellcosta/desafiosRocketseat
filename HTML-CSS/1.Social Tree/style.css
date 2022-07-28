@@ -8,10 +8,6 @@
     color: #BB99DD;
     text-align: center;
 }
-html:hover{
-    border: 2px solid #efe9ff;
-    transition: 5%;
-}
 
 .profile{
     box-sizing: border-box;
@@ -19,7 +15,17 @@ html:hover{
     border-radius: 100% ;
     margin-top: 2%;
 }
+#mel{
+    margin-top: 100px;
+    color: #b469f2;
+}
+em:hover{
+    color: #e6cef9;
+}
 
+ul{
+        margin-right: 2%;
+}
 li{
     list-style: none;
     border: 2px solid #BB99DD;
@@ -27,10 +33,9 @@ li{
     width: 300px;
     height: 30px;
     padding-top: 10px;
-    margin-left: 39%;
+
 }
 li:hover{
-
     border: 2px solid #e6cef9;
 }
 a{
@@ -44,9 +49,7 @@ a{
     padding: 0 5px;
     display: inline;
 }
-#mel{
-    margin-top: 100px;
-    color: #b469f2;
-
+.social:hover{
+    border-bottom: solid #e6cef9;
 }
 
