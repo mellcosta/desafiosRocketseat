@@ -70,13 +70,13 @@
 ---
 # Desafios HTML-CSS
 
-## 5. [Social Tree](https://mellcosta.github.io/desafiosRocketseat/HTML-CSS/1.Social%20Tree/socialTree.html) 
-<img src="./assets/blogPost.png" alt="Modelo do Formulário" width="200px" height="150px" >
+## 1. [Social Tree](https://mellcosta.github.io/desafiosRocketseat/HTML-CSS/1.Social%20Tree/socialTree.html) 
+<img src="./assets/MacBook-SocialTree.png" alt="Modelo do Formulário" width="200px" height="150px" >
 
 ### 💻 [Sobre o desafio](./HTML-CSS/1.Social%20Tree/aboutSocialTree.md)
 
 ---
 ---
 
-### ~🌈🦄Click on [print](#) or <a href="https://mellcosta.github.io/desafiosRocketseat/HTML-CSS/1.Social%20Tree/socialTree.html" target="_blank">real</a> to see my design:
+### ~🌈🦄Click on [print](./assets/socialTree.PNG) or <a href="https://mellcosta.github.io/desafiosRocketseat/HTML-CSS/1.Social%20Tree/socialTree.html" target="_blank">real</a> to see my design:
 
