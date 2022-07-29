@@ -1,6 +1,6 @@
-# 3. Lista de compras
+# 3. [ Lista de compras](https://mellcosta.github.io/desafiosRocketseat/iniciante/desafios_html/3_shopping_list/shopping_list.html)
 
-# 💻 Sobre o desafio
+## 💻 Sobre o desafio
 
 ---
 
@@ -55,3 +55,5 @@ Ao finalizar o desafio você vai ter um resultado parecido com o da imagem abaix
 Lembrando que as imagens e textos abaixo são ilustrativos e você pode adicionar seu próprio conteúdo conforme as instruções acima. 
 
 ![Modelo da Lista de Compras](../../assets/shopping-list.png)
+
+### ~🌈🦄Click on [print](./assets/narutoQuiz.PNG) or <a href="https://mellcosta.github.io/desafiosRocketseat/iniciante/desafios_html/3_shopping_list/shopping_list.html" target="_blank" >real</a> to see my design:

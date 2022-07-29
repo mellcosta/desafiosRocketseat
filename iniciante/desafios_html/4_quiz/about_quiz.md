@@ -1,6 +1,6 @@
-# 4.Quiz
+# 4. [Quiz](https://mellcosta.github.io/desafiosRocketseat/iniciante/desafios_html/4_quiz/quiz.html) 
 
-# 💻 Sobre o desafio
+## 💻 Sobre o desafio
 
 ---
 
@@ -105,4 +105,4 @@ Lembrando que as imagens e textos abaixo são ilustrativos e você pode adiciona
 
 ![Modelo do Quiz](../../assets/quiz.png)
 
-### ~🌈🦄Click on [print](./assets/narutoQuiz.PNG) or <a href="https://mellcosta.github.io/desafiosRocketseat/HTML/2.Formul%C3%A1rio%20de%20Contacto/formCont.html" target="_blank" >real</a> to see my design:
+### ~🌈🦄Click on [print](./assets/narutoQuiz.PNG) or <a href="https://mellcosta.github.io/desafiosRocketseat/iniciante/desafios_html/4_quiz/quiz.html" target="_blank" >real</a> to see my design:
