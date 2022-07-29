@@ -23,4 +23,17 @@ ___
 
 ---
 ---
-### ~🌈🦄Click on [print](./assets/socialTree.PNG) or <a href="https://mellcosta.github.io/desafiosRocketseat/social_tree/social_tree.html" target="_blank">real</a> to see my design:
+### ~🌈🦄Click on [print](./iniciante/assets/socialTree.PNG) or <a href="https://mellcosta.github.io/desafiosRocketseat/iniciante/social_tree/social_tree.html" target="_blank">real</a> to see my design
+
+---
+___
+* ## Desafio RocketNews
+<a href="https://mellcosta.github.io/desafiosRocketseat/iniciante/rocket_news/rocket_news.html" target="_blank">
+<img src="./iniciante/assets/rocketnews-image.webp" alt="imagem Social Tree" width="200px" height="150px" >
+</a>
+
+### 💻 [Sobre o desafio](./iniciante/rocket_news/about_rocket_news.md)
+
+---
+---
+### ~🌈🦄Click on [print](./iniciante/assets/rocket_news_mel.PNG) or <a href="https://mellcosta.github.io/desafiosRocketseat/iniciante/rocket_news/rocket_news.html" target="_blank">real</a> to see my design

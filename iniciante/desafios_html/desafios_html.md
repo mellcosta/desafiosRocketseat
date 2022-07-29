@@ -15,7 +15,7 @@ Essa é uma série de desafios básicos para que você possa praticar seus conhe
 
 ---
 
-### ~🌈🦄Click on [print](../assets/glossaryMel.png) or <a href="https://mellcosta.github.io/desafiosRocketseat/iniciante/desafios_html/1_glossary/glossary.html" target="_blank" >real</a> to see my design:
+### ~🌈🦄Click on [print](../assets/glossaryMel.png) or <a href="https://mellcosta.github.io/desafiosRocketseat/iniciante/desafios_html/1_glossary/glossary.html" target="_blank" >real</a> to see my design
 
 ---
 ---
@@ -27,7 +27,7 @@ Essa é uma série de desafios básicos para que você possa praticar seus conhe
 
 ---
 
-### ~🌈🦄Click on [print](../assets/formContactMel.png) or <a href="https://mellcosta.github.io/desafiosRocketseat/iniciante/desafios_html/2_contact_form/contact_form.html" target="_blank" >real</a> to see my design:
+### ~🌈🦄Click on [print](../assets/formContactMel.png) or <a href="https://mellcosta.github.io/desafiosRocketseat/iniciante/desafios_html/2_contact_form/contact_form.html" target="_blank" >real</a> to see my design
 
 ---
 ---
@@ -44,7 +44,7 @@ Essa é uma série de desafios básicos para que você possa praticar seus conhe
 ---
 ---
 
-### ~🌈🦄Click on [print](../assets/listaComprasMel.png) or <a href="https://mellcosta.github.io/desafiosRocketseat/iniciante/desafios_html/3_shopping_list/shopping_list.html" target="_blank" >real</a> to see my design:
+### ~🌈🦄Click on [print](../assets/listaComprasMel.png) or <a href="https://mellcosta.github.io/desafiosRocketseat/iniciante/desafios_html/3_shopping_list/shopping_list.html" target="_blank" >real</a> to see my design
 
 ---
 
@@ -56,7 +56,7 @@ Essa é uma série de desafios básicos para que você possa praticar seus conhe
 ---
 ---
 
-### ~🌈🦄Click on [print](../assets/narutoQuiz.PNG) or <a href="https://mellcosta.github.io/desafiosRocketseat/iniciante/desafios_html/4_quiz/quiz.html" target="_blank" >real</a> to see my design:
+### ~🌈🦄Click on [print](../assets/narutoQuiz.PNG) or <a href="https://mellcosta.github.io/desafiosRocketseat/iniciante/desafios_html/4_quiz/quiz.html" target="_blank" >real</a> to see my design
 
 ---
 
@@ -68,4 +68,4 @@ Essa é uma série de desafios básicos para que você possa praticar seus conhe
 ---
 ---
 
-### ~🌈🦄Click on [print](../assets/coffeeBlog.PNG) or <a href="https://mellcosta.github.io/desafiosRocketseat/iniciante/desafios_html/5_blog_post/blog_post.html" target="_blank" >real</a> to see my design:
+### ~🌈🦄Click on [print](../assets/coffeeBlog.PNG) or <a href="https://mellcosta.github.io/desafiosRocketseat/iniciante/desafios_html/5_blog_post/blog_post.html" target="_blank" >real</a> to see my design

@@ -8,7 +8,7 @@
     --bg-button-color: #8257e5;
   }
 
-  * {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -54,6 +54,7 @@ body{
     margin: 20px 5px 60px;
     border-left: 5px solid #04D361;
 }
+
 .newsletter .send{
     background-color:var(--bg-button-color);
     width: 5%;
@@ -64,10 +65,11 @@ body{
     right: 9px;
 }
 
-.newsletter .send:hover{
-    color: #121214;
+.newsletter form button{
+    background-color: #8257e5;
+    height: 40px;
+    border: #8257e5;
 }
-
 
 .redirect{
     text-decoration: none;
@@ -76,6 +78,14 @@ body{
     align-items: center;
     justify-content: space-between;
     width: 180px;
+}
+
+footer{
+    position: absolute;
+    left: 30%;
+    bottom: -120%;
+    font: 8pt italic;
+    color: var(--title-color);
 }
 
 #bg {
@@ -90,11 +100,7 @@ body{
 .container {
     display: flex;
 }
-button{
-    background-color: #8257e5;
-    height: 40px;
-    border: #8257e5;
-}
+
 /* .container{
     margin-top: 0;
     background-color: var(--body-bg-color);
