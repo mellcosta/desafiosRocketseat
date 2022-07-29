@@ -1,6 +1,6 @@
 # 1. Social Tree
 
-<img src="../../assets/iPhonesSocialTree.png" width="200px" alt= "iPhone 13">
+<img src="../assets/iPhonesSocialTree.png" width="200px" alt= "iPhone 13">
 
 # 💻 Sobre o desafio
 
@@ -10,7 +10,7 @@ Neste desafio você deve criar uma página com uma lista de links que pode ser u
 
 ## Layout
 
-<img src="../../assets/MacBook-SocialTree.png" width="200px" alt= "MacBook Pro 16 inch">
+<img src="../assets/MacBook-SocialTree.png" width="200px" alt= "MacBook Pro 16 inch">
 
 Você pode duplicar o layout do projeto [clicando aqui](https://www.figma.com/file/yi1ycIyAW8QiGiX9bMFHkU/DD-%2F-Social-links/duplicate) ou baixar o zip com os assets do projeto.
 

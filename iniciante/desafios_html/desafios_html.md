@@ -1,9 +1,12 @@
 # Desafios HTML
 
-<img src="../assets/html.webp" alt="Modelo do Glossário" width="300px" height="200px" >
+<img src="../assets/html.webp" alt="imagem html" width="300px" height="200px" >
 
 ## 💻 Sobre o desafio
 Essa é uma série de desafios básicos para que você possa praticar seus conhecimentos em HTML. 
+
+---
+---
 
 ## 1. [Glossário](https://mellcosta.github.io/desafiosRocketseat/iniciante/desafios_html/1_glossary/glossary.html) 
 <img src="../assets/gloss.png" alt="Modelo do Glossário" width="300px" height="200px" >
