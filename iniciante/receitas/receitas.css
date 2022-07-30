@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #EAEAEA;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+.container{
+    background-color: #ffffff;
+    color: #39393A;
+    border-radius: 10px;
+    width: 70%;
+    margin: 40px auto;
+    padding: 40px;
+}
+
+.principal h1{
+    font-size: 28px;
+    text-align: center;
+    color: #1B1B1B;
+}
+
+.principal figure img{
+    border-radius: 10px;
+    object-fit: cover;
+    margin-top: 20px;
+}
+
+#line{
+background-image: url(assets/samacaca.jpg);
+height: 10px;
+}
+
+.principal figure .legend{
+    text-align: right;
+    font-style: italic;
+    font-size: 12px;
+    color: #8F8F8F;
+}
+
+.content{
+    line-height: 35px;
+    list-style-position: inside;
+    padding: 40px;
+}
+
+h2{
+    font-size: 20px;
+    text-align: center;
+    color: #1B1B1B;
+}
+
+footer{
+    text-align: center;
+    font-size: 12px;
+    margin-top: 10px;
+}
+#mypage{
+    text-decoration: none;
+    color: #8F8F8F;
+}
+
+
