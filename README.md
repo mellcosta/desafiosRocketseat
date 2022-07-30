@@ -7,7 +7,7 @@
 
 * ## Desafios HTML
 
-<img src="./iniciante/assets/html.webp" alt="imagem HTML" width="200px" height="150px" >
+<img src="./iniciante/assets/html.webp" alt="imagem HTML" width="200px" height="100px" >
 
 > Essa é uma série de desafios básicos para que você possa praticar seus conhecimentos em HTML.
 
@@ -16,7 +16,7 @@
 ___
 * ## Desafio Social Tree
 <a href="https://mellcosta.github.io/desafiosRocketseat/iniciante/social_tree/social_tree.html" target="_blank">
-<img src="./iniciante/assets/social-tree-image.webp" alt="imagem Social Tree" width="200px" height="150px" >
+<img src="./iniciante/assets/social-tree-image.webp" alt="imagem Social Tree" width="200px" height="100px" >
 </a>
 
 ### 💻 [Sobre o desafio](./iniciante/social_tree/about_social_tree.md)
@@ -29,7 +29,7 @@ ___
 ___
 * ## Desafio RocketNews
 <a href="https://mellcosta.github.io/desafiosRocketseat/iniciante/rocket_news/rocket_news.html" target="_blank">
-<img src="./iniciante/assets/rocketnews-image.webp" alt="imagem Social Tree" width="200px" height="150px" >
+<img src="./iniciante/assets/rocketnews-image.webp" alt="imagem Social Tree" width="200px" height="100px" >
 </a>
 
 ### 💻 [Sobre o desafio](./iniciante/rocket_news/about_rocket_news.md)
@@ -37,3 +37,16 @@ ___
 ---
 ---
 ### ~🌈🦄Click on [print](./iniciante/assets/rocket_news_mel.PNG) or <a href="https://mellcosta.github.io/desafiosRocketseat/iniciante/rocket_news/rocket_news.html" target="_blank">real</a> to see my design
+
+---
+___
+* ## Desafio Página de Receitas
+<a href="https://mellcosta.github.io/desafiosRocketseat/iniciante/receitas/receitas.html" target="_blank">
+<img src="./iniciante/assets/cookbook-image.webp" alt="imagem Página de Receitas" width="200px" height="100px" >
+</a>
+
+### 💻 [Sobre o desafio](./iniciante/receitas/about_receitas.md)
+
+---
+---
+### ~🌈🦄Click on [print](./iniciante/assets/calulú.PNG) or <a href="https://mellcosta.github.io/desafiosRocketseat/iniciante/receitas/receitas.html" target="_blank">real</a> to see my design
