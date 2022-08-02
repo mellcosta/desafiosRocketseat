@@ -1,7 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
     background-color: rgb(69, 38, 0);
     font: italic 30pt Times;
-    color:rgb(211, 202, 202)
+    color:rgb(211, 202, 202);
+    margin: 0 auto;
+    padding: 20px;
 }
 
 header{
@@ -17,7 +23,8 @@ header{
 }
 
 h1{
-    padding:2%;
+    padding:10px;
+    margin: 10px;
     font-size: 80pt ;
     color:rgb(211, 202, 202)
 }
@@ -25,6 +32,7 @@ h1{
 a{
     font-size: 40pt;
     color: rgb(95, 64, 14);
+    text-decoration: none;
 }
 
 nav{
@@ -51,4 +59,52 @@ em{
 legend{
     font-size: 60pt;
     color:rgb(0, 0, 0)
+}
+
+@media(max-width:500px){
+    body{
+        font-size: 15px;
+    }
+    header{
+        width: 100%;
+        margin: 0 auto;
+        border: 10px solid rgb(51, 19, 5);
+    
+    }
+    
+    h1{
+        padding:5px;
+        font-size: 20pt ;
+    }
+    
+    a{
+        font-size: 10pt;
+    }
+    
+    nav{
+        border: 2px solid rgb(255, 254, 254);
+        width: 60px;
+        background-color: rgba(242, 216, 192, 0.92);
+    }
+    
+    h2{
+        font-size: 15pt;
+        
+    }
+    
+    div{
+        border: 2px solid pink;
+        width: 200px;
+    }
+    
+    em{
+        font-size: 8pt;
+    }
+    
+    legend{
+        font-size: 20pt;
+    }
+    img{
+        width: 100px;
+    }
 }
