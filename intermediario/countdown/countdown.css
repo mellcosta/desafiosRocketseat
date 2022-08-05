@@ -16,9 +16,8 @@
 body{
     font-family: 'Poppins', sans-serif;
     color: var(--black);
-    font-size: 20px;
-    margin: 10px;
-    border: 5px double  #6C63FF;
+    font-size: 12px;
+
 }
 #top{
     width: 100%;
@@ -31,17 +30,30 @@ body{
     margin: 10px auto;
     padding-right: 500px;
 }
+
 .container h1{
+    font-size: 30pt;
     color: #6C63FF;
+}
+.container h2{
+    font-size: 80px;
+    padding: 30px;
+    background-color: #eaeaea;
 }
 
 .container .countdown{
     display: flex;
     align-items: center;
     justify-content: center; 
+    margin: 50px;
 }
-.container div{
-    padding: 30px;
+.container .countdown div{
+    padding: 10px;
+    margin: 10px;
+}
+.container .countdown p{
+    background-color: #6C63FF;
+    color: var(--light-grey);
 }
 
 .container .button{
@@ -49,7 +61,75 @@ body{
     color: var(--light-grey);
     border: 10px solid #6C63FF;
     border-radius: 10px;
+    padding: 2px 5px;
+}
 
+.container #modal{
+    display: none;
+}
+
+.container .open:hover{
+    cursor: pointer;
+}
+
+ #modal:checked + .modalPage{
+    display: flex;
+}
+
+
+.modalPage{
+    display: none;
+    position: fixed;
+    bottom: -3px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+}
+
+.modalPage .close{
+    position: absolute;
+    top: 50px;
+    right: 90px;
+    font-size: 30px;
+    color: white;
+}
+.modalPage .close:hover{
+    cursor: pointer;
+    color:#ff7171 ;
+}
+.modalPage .modalContent{
+    width: 50%;
+    height: 70%;
+    background-color: white;
+    border: 2px solid lightgray;
+    border-radius: 10px;
+    box-shadow: 5px 5px 12px #5f58ef;
+    overflow: auto;
+}
+.modalContent form fieldset{
+    margin: 80px 20px;
+    color: #4D4C59;
+    font-size: 15pt;
+    padding: 50px;
+}
+
+.modalContent fieldset legend{
+    color: #6C63FF;
+    font-size: 30px;
+}
+.modalContent form label {
+    display: block;
+    padding-bottom: 20px;
+}
+
+.modalContent button{
+    background-color: #6C63FF;
+    color: #C8C8C8;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 15px;
 }
 
 .container .icon{

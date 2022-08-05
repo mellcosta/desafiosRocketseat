@@ -1,12 +1,17 @@
 <!DOCTYPE html>
 <html lang="pt">
 <head>
-    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Melhorando o SEO(Search Engine Optimization)-->
     <title>CountDown</title>
+    <meta charset="UTF-8">
+    <meta name="author" content="countdown">
+    <meta name="keywords" content="css, html, js, countdown, timer">
+    <meta name="description" content="Contangem regressiva para o novo ano">
+    
     <link rel="stylesheet" href="countdown.css">
-
+    
 </head>
 <body>
     <div >
@@ -16,29 +21,54 @@
             <h1>READY TO LAUNCH IN...</h1>
             <div class="countdown">
                 <div id="days">
-                    0
+                    <h2>0</h2>
                     <p>Days</p>
                 </div>
                 <div id="hours">                
-                    0
+                    <h2>0</h2>
                     <p>Hours</p>
                 </div>
                 <div id="minutes">                
-                    0
+                    <h2>0</h2>
                     <p>Minutes</p>
                 </div>
                 <div id="seconds">                
-                    0
+                    <h2>0</h2>
                     <p>Seconds</p>
                 </div> 
             </div>
             <img src="./images/rocket.svg" alt="" class="icon" >
         <aside>
-            <button class="button">Inscreva-se</button>
+            <button class="button"> 
+                <label for="modal" class="open">Inscreva-se</label>
+            </button>
+            <input type="checkbox" class="check" id="modal">
+            <div class="modalPage">
+                <label for="modal" class="close">X</label>
+                <div class="modalContent">
+                    <form>
+                        <fieldset>
+                            <legend>Insira os seus dados</legend>
+                            <label>Nome
+                                <input type="text" placeholder="digite o seu nome">
+                            </label>
+                            <label>Email 
+                                <input type="email" placeholder="seudominio@" pattern="+.@+." required>
+                            </label>
+                            <button type="submit" >Enviar</button>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
         </aside>
     </main> 
     <div >
         <img src="./images/bottom-image.svg"id="bottom" >
     </div>  
+
+<script src="countdown.js">
+
+</script>
+
 </body>
 </html>
