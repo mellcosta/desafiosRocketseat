@@ -6,18 +6,15 @@
     --light-grey: #C8C8C8;
     --text-color: #9C9AB6;
   }
-
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
 body{
     font-family: 'Poppins', sans-serif;
     color: var(--black);
-    font-size: 12px;
-
+    font-size: 12pt;
 }
 #top{
     width: 100%;
@@ -30,53 +27,69 @@ body{
     margin: 10px auto;
     padding-right: 500px;
 }
-
 .container h1{
     font-size: 30pt;
     color: #6C63FF;
 }
-.container h2{
-    font-size: 80px;
-    padding: 30px;
-    background-color: #eaeaea;
-}
-
-.container .countdown{
+.countdown{
     display: flex;
     align-items: center;
     justify-content: center; 
     margin: 50px;
 }
-.container .countdown div{
-    padding: 10px;
-    margin: 10px;
+.countdown div{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    font-size: 30pt;
+    line-height: 100px;
+    margin: 0 15px;
+    background-color: #eaeaea;
+    border-radius: 10px 10px ;
 }
-.container .countdown p{
+.countdown div::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 25px;
+    left: 1px;
+    top: 5em;
     background-color: #6C63FF;
     color: var(--light-grey);
+    line-height: 20px;
+    font-weight: 300;
+    font-size:12pt ;
+}
+.countdown #day::before{
+    content: 'Days';
+}
+.countdown #hour::before{
+    content: 'Hours';
+}
+.countdown #minute::before{
+    content: 'Minutes';
+}
+.countdown #second::before{
+    content: 'Seconds';
 }
 
-.container .button{
+.button{
     background-color: #6C63FF;
     color: var(--light-grey);
     border: 10px solid #6C63FF;
     border-radius: 10px;
     padding: 2px 5px;
 }
-
+/*Modal*/
 .container #modal{
     display: none;
 }
-
-.container .open:hover{
+.button .open:hover{
     cursor: pointer;
 }
-
  #modal:checked + .modalPage{
     display: flex;
 }
-
-
 .modalPage{
     display: none;
     position: fixed;
@@ -87,7 +100,6 @@ body{
     justify-content: center;
     align-items: center;
 }
-
 .modalPage .close{
     position: absolute;
     top: 50px;
@@ -112,7 +124,7 @@ body{
     margin: 80px 20px;
     color: #4D4C59;
     font-size: 15pt;
-    padding: 50px;
+    padding: 30px;
 }
 
 .modalContent fieldset legend{
@@ -123,7 +135,6 @@ body{
     display: block;
     padding-bottom: 20px;
 }
-
 .modalContent button{
     background-color: #6C63FF;
     color: #C8C8C8;
@@ -131,7 +142,6 @@ body{
     border-radius: 5px;
     padding: 5px 15px;
 }
-
 .container .icon{
     width: 35%;
     position: absolute;
@@ -141,6 +151,68 @@ body{
 #bottom{
     width: 100%;
     margin-bottom: 0;
+}
+
+/*Responsividade*/
+@media (max-width:600px){
+    .container{
+        line-height: 10px;
+        margin: 50px auto 160px auto;
+        padding-right: 80px;
+    }
+    
+    .container h1{
+        font-size: 20pt;
+    }
+    
+    .countdown{
+        margin: 10px;
+    }
+    .countdown div{
+        width: 100px;
+        height: 50px;
+        font-size: 20pt;
+        line-height: 60px;
+        margin: 50px 10px;
+    }
+    .countdown div::before{
+        width: 100%;
+        height: 25px;
+        left: 1px;
+        top: 3em;
+    }
+
+    /*Modal*/
+
+    .modalPage .close{
+        top: 120px;
+        right: 50px;
+    }
+    .modalPage .modalContent{
+        width: 80%;
+        height: 50%;
+    }
+    .modalContent form fieldset{
+        margin: 40px 20px;
+        padding: 30px;
+        font-size: 12pt;
+    }
+    
+    .modalContent fieldset legend{
+        font-size: 20px;
+    }
+    .modalContent form label {
+        display: flex;
+        line-height: 20px;
+
+    }
+    .container .icon{
+        width: 50%;
+        position: absolute;
+        right: 10px;
+        bottom: 6em;
+    }
+
 }
 
 
