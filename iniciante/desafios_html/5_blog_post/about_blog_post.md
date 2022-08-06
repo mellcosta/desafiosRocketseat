@@ -129,5 +129,3 @@ Ao finalizar o desafio você vai ter um resultado parecido com o da imagem abaix
 Lembrando que as imagens e textos abaixo são ilustrativos e você pode adicionar seu próprio conteúdo conforme as instruções acima.
 
 ![Modelo do Blog Post](../../assets/blogPost.png)
-
-### ~ 🌈🦄<a href="https://mellcosta.github.io/desafiosRocketseat/iniciante/desafios_html/5_blog_post/blog_post.html" target="_blank" >Click here</a> to see my design:

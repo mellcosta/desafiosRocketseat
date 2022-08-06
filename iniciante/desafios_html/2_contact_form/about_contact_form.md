@@ -59,4 +59,3 @@ Lembrando que as imagens e textos abaixo são ilustrativos e você pode adiciona
 
 ![Modelo do Formulário de Contacto](../../assets/form-contato.png)
 
-### ~🌈🦄Click on [print](./assets/narutoQuiz.PNG) or <a href="https://mellcosta.github.io/desafiosRocketseat/iniciante/desafios_html/2_contact_form/contact_form.html" target="_blank" >real</a> to see my design:

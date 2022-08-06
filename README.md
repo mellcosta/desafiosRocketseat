@@ -1,52 +1,69 @@
 # Desafios Rocketseat
 
-> A [Rocketseat](https://rocketseat.com.br/) apresenta uma variedade de desafios desde o nível iniciante ao mais aperfeiçoado com o uso das tecnologias HTML, CSS e JavaScript.
+> A [Rocketseat](https://rocketseat.com.br/) apresenta uma variedade de desafios fazendo o uso das tecnologias HTML, CSS e JavaScript, e estão ao alcance de todos os níveis:
+
+<nav id="back">
+
+## <a href="#beginner">Nível Iniciante</a>
+
+## <a href="#elementary">Nível Intermediário</a>
+
+## <a href="#">Nível Avançado</a>
+
+</nav>
 
 ---
 ---
+<a href="#back">
+<h1 id="beginner">Iniciante</h1> 
+</a>
 
 * ## Desafios HTML
 
-<img src="./iniciante/assets/html.webp" alt="imagem HTML" width="200px" height="100px" >
+[<img src="./iniciante/assets/html.webp" alt="imagem HTML" width="200px" height="100px" >](./iniciante/desafios_html/desafios_html.md)
 
 > Essa é uma série de desafios básicos para que você possa praticar seus conhecimentos em HTML.
 
-### 💻 [Sobre o desafio](./iniciante/desafios_html/desafios_html.md)
 ---
-___
+
 * ## Desafio Social Tree
-<a href="https://mellcosta.github.io/desafiosRocketseat/iniciante/social_tree/social_tree.html" target="_blank">
-<img src="./iniciante/assets/social-tree-image.webp" alt="imagem Social Tree" width="200px" height="100px" >
-</a>
 
-### 💻 [Sobre o desafio](./iniciante/social_tree/about_social_tree.md)
+[<img src="./iniciante/assets/social-tree-image.webp" alt="imagem Social Tree" width="200px" height="100px" >](./iniciante/social_tree/about_social_tree.md)
 
 ---
----
-### ~🌈🦄Click on [print](./iniciante/assets/socialTree.PNG) or <a href="https://mellcosta.github.io/desafiosRocketseat/iniciante/social_tree/social_tree.html" target="_blank">real</a> to see my design
+
+### Click on [print](./iniciante/assets/socialTree.PNG) or <a href="https://mellcosta.github.io/desafiosRocketseat/iniciante/social_tree/social_tree.html" target="_blank">real</a> to see my design
 
 ---
-___
+
 * ## Desafio RocketNews
-<a href="https://mellcosta.github.io/desafiosRocketseat/iniciante/rocket_news/rocket_news.html" target="_blank">
-<img src="./iniciante/assets/rocketnews-image.webp" alt="imagem Social Tree" width="200px" height="100px" >
-</a>
 
-### 💻 [Sobre o desafio](./iniciante/rocket_news/about_rocket_news.md)
+[<img src="./iniciante/assets/rocketnews-image.webp" alt="imagem Social Tree" width="200px" height="100px" >](./iniciante/rocket_news/about_rocket_news.md)
 
 ---
----
-### ~🌈🦄Click on [print](./iniciante/assets/rocket_news_mel.PNG) or <a href="https://mellcosta.github.io/desafiosRocketseat/iniciante/rocket_news/rocket_news.html" target="_blank">real</a> to see my design
+
+### Click on [print](./iniciante/assets/rocket_news_mel.PNG) or <a href="https://mellcosta.github.io/desafiosRocketseat/iniciante/rocket_news/rocket_news.html" target="_blank">real</a> to see my design
 
 ---
-___
+
 * ## Desafio Página de Receitas
-<a href="https://mellcosta.github.io/desafiosRocketseat/iniciante/receitas/receitas.html" target="_blank">
-<img src="./iniciante/assets/cookbook-image.webp" alt="imagem Página de Receitas" width="200px" height="100px" >
+
+[<img src="./iniciante/assets/cookbook-image.webp" alt="imagem Página de Receitas" width="200px" height="100px" >](./iniciante/receitas/about_receitas.md)
+
+---
+
+### Click on [print](./iniciante/assets/calulú.PNG) or <a href="https://mellcosta.github.io/desafiosRocketseat/iniciante/receitas/receitas.html" target="_blank">real</a> to see my design
+
+---
+---
+<a href="#back">
+<h1 id="elementary">Intermediário</h1>
 </a>
 
-### 💻 [Sobre o desafio](./iniciante/receitas/about_receitas.md)
+* ## Desafio Countdown
+
+[<img src="./intermediario/assets/countdown_read.webp" alt="imagem Countdown" width="200px" height="100px" >](./intermediario/countdown/about_countdown.md)
 
 ---
----
-### ~🌈🦄Click on [print](./iniciante/assets/calulú.PNG) or <a href="https://mellcosta.github.io/desafiosRocketseat/iniciante/receitas/receitas.html" target="_blank">real</a> to see my design
+
+### Click on [print](./intermediario/assets/countdownMel.PNG) or <a href="https://mellcosta.github.io/desafiosRocketseat/intermediario/countdown/countdown.html" target="_blank">real</a> to see my design

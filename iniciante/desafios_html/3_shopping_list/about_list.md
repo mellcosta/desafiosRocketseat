@@ -56,4 +56,3 @@ Lembrando que as imagens e textos abaixo são ilustrativos e você pode adiciona
 
 ![Modelo da Lista de Compras](../../assets/shopping-list.png)
 
-### ~🌈🦄Click on [print](./assets/narutoQuiz.PNG) or <a href="https://mellcosta.github.io/desafiosRocketseat/iniciante/desafios_html/3_shopping_list/shopping_list.html" target="_blank" >real</a> to see my design:
