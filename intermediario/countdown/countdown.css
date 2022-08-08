@@ -18,7 +18,7 @@ body{
 }
 #top{
     width: 100%;
-    color: #6C63FF;
+
 }
 .container{
     display: block;
@@ -150,11 +150,12 @@ body{
 }
 #bottom{
     width: 100%;
-    margin-bottom: 0;
+    position: absolute;
+    margin-top: 3em;
 }
 
 /*Responsividade*/
-@media (max-width:600px){
+@media (max-width:1000px){
     .container{
         line-height: 10px;
         margin: 50px auto 160px auto;
@@ -169,19 +170,25 @@ body{
         margin: 10px;
     }
     .countdown div{
-        width: 100px;
+        width: 50px;
         height: 50px;
         font-size: 20pt;
-        line-height: 60px;
+        line-height: 40px;
         margin: 50px 10px;
     }
     .countdown div::before{
+        content: '';
+        position: absolute;
         width: 100%;
         height: 25px;
         left: 1px;
-        top: 3em;
+        top: 4em;
+        background-color: #6C63FF;
+        color: var(--light-grey);
+        line-height: 20px;
+        font-weight: 300;
+        font-size:8pt ;
     }
-
     /*Modal*/
 
     .modalPage .close{
@@ -210,7 +217,11 @@ body{
         width: 50%;
         position: absolute;
         right: 10px;
-        bottom: 6em;
+        bottom: 10em;
+    }
+    #bottom{
+        width: 100%;
+        margin-top: 8em;
     }
 
 }
