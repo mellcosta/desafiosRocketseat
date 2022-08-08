@@ -4,19 +4,18 @@
 
 <nav id="back">
 
-## <a href="#beginner">Nível Iniciante</a>
+<h2><a href="#beginner">Nível Iniciante</a></h2> 
 
-## <a href="#elementary">Nível Intermediário</a>
+<h2><a href="#elementary">Nível Intermediário</a></h2> 
 
-## <a href="#"> Nível Avançado</a>
+<h2><a href="#"> Nível Avançado</a></h2> 
 
 </nav>
 
 ---
 ---
-<a href="#back">
-<h1 id="beginner">Iniciante</h1> 
-</a>
+
+<a href="#back"><h1 id="beginner">Iniciante</h1></a>
 
 * ## Desafios HTML
 
@@ -56,9 +55,8 @@
 
 ---
 ---
-<a href="#back">
-<h1 id="elementary">Intermediário</h1>
-</a>
+
+<a href="#back"> <h1 id="elementary">Intermediário</h1></a>
 
 * ## Desafio Countdown
 
