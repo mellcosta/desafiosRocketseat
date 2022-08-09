@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&family=Merriweather+Sans:ital,wght@0,500;0,700;1,400&family=Poppins:wght@300;400;500&display=swap');
+
+:root {
+    --body-bg-color: #22212C;
+    --text-color: #837E9F;
+    --bg-cards: #302F3D;
+    --bg-techs: #CB92B1;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #22212C;
+    font-family:'Merriweather', sans-serif;
+    color: #837E9F;
+    
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    margin: 20px;
+    font-size: 9pt;
+    line-height: 30px;
+}
+.container div{
+    border: 1px solid #302F3D;
+    background-color: #302F3D;
+    border-radius: 10px;
+    width: 27%;
+    padding: 20px;
+}
+.profile{
+    text-align: center;
+}
+.profile img{
+    border: 2px solid green;
+    border-radius: 50%;
+    width: 130px;
+    height: 140px;
+}
+.social{
+    display: flex;
+    flex-direction: column;
+}
+.social a{
+    text-decoration: none;
+    color: #837E9F;
+}
+.social img{
+   margin-right: 10px;
+}
+.techs ul{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.techs li{
+    list-style: none;
+    background-color: #CB92B1;
+    border-radius: 20px;
+    margin: 10px;
+    flex-basis: 70px;
+    color: #22212C;
+    text-align: center;
+    font-size: 8px;
+}
+
+.experience dl, .school dl{
+    padding-left: 30px;
+}
+
+.content{
+    position: absolute;
+    left: 33%;
+    margin: 43px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 2em;
+
+}
+.content > a{
+    text-decoration: none;
+    color: #837E9F;
+    padding: 10px;
+    background-color: #302F3D;
+    border-radius: 8px;
+    font-weight: 900;
+}
+.projects{
+    display: flex;
+    gap: 2em;
+}
+.projects .project{
+    flex-grow: 1;
+    
+    padding: 15px;
+}
+.project a{
+    text-decoration: none;
+    color: #837E9F;
+    font-size: 12pt;
+}
+.project p{
+    line-height: 18px;
+    font-size: 9pt;
+}
+.project section{
+    text-align: center;
+}
+.project img{
+    width: 15px;
+    margin-right: 5px;
+}
