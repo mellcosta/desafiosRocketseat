@@ -98,7 +98,6 @@ body{
 }
 .projects .project{
     flex-grow: 1;
-    
     padding: 15px;
 }
 .project a{
