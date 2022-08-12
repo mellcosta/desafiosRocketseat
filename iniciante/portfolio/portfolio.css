@@ -30,37 +30,49 @@ a:hover{
 li{
     list-style: none;
 }
+p{
+    padding: 10px;
+}
 
+/*.container*/
 .container{
     display: flex;
     flex-wrap: wrap;
-    font-size: 9pt;
+    gap: 1em;
+    font-size: 10pt;
     line-height: 30px;
-    margin: 20px;
+    margin: 10px auto;
+    padding: 20px;
 }
 
+/*.info*/
 .info{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     gap: 2em;
-    width: 30%;
+    width: 350px;
 }
 .info section{
     border: 1px solid #302F3D;
     background-color: #302F3D;
-    border-radius: 10px;
+    border-radius: 20px;
     width: 320px;
     padding: 20px;
 }
+
+/*.profile*/
 .profile{
     text-align: center;
 }
 .profile img{
     border-radius: 50%;
     width: 130px;
-    height: 140px;
+    height: 130px;
+    border:5px double #8742d1;
 }
+
+/* .social*/
 .social{
     display: flex;
     flex-direction: column;
@@ -71,21 +83,27 @@ li{
 .social img{
    margin-right: 10px;
 }
-.techs ul{
+
+/*.techs*/
+.techs ul {
     display: flex;
     flex-wrap: wrap;
-    
+    line-height: 10px;
+    gap: 1em;
+    padding: 10px;
+    font-size: 9px;
 }
 .techs li{
     background-color: #CB92B1;
-    border-radius: 20px;
-    margin: 5px;
-    width: 70px;
     color: #22212C;
+    padding: 10px;
+    width: 70px;
     text-align: center;
-    font-size: 8px;
+    border-radius: 60px;
+    padding: 5px;
 }
 
+/*.experience*/
 .experience dl, .school dl{
     padding-left: 25px;
 }
@@ -93,44 +111,86 @@ li{
     font-weight: 700;
 }
 
+/*.content*/
 .content{
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    gap: 2em;
-    width: 30%;
+    gap: 1em;
+    width: 350px;
     flex-grow: 2;
-    
 }
-
 .content div, li{
     background-color: #302F3D;
-    border-radius: 10px;
-    padding: 10px;
+    border-radius: 20px;
+    padding: 20px;
 }
-
 .content div{
     padding: 10px;
-    border-radius: 8px;
+    border-radius: 20px;
     font-weight: 900;
     font-size: 12pt;
     width: 100%;
     margin-bottom: 10px;
 }
+.content div a{
+    padding: 30px;
+}
+
+/* .projects*/
 .projects ul{
     display: flex;
-    gap: 2em;
+    gap: 0.5em;
+}
+.projects li{
+    width: 100%;
+}
+.projects li a{
+    text-align: center;
+    font-size: 12pt;
+    padding: 15px;
+}
+.projects aside{
+    display: flex;
+    justify-content: space-between;
+    font-size: 9px;
 }
 
+/* .posts*/
 .posts ul li{
-    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3em;
+    margin-top: 20px;
+    padding: 20px;
+    line-height: 25px;
 }
-
-footer{
+.posts .pic img{
+    border: 2px solid #CB92B1;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
+.posts img{
+    width: 500px;
+    border-radius: 10px;
+    text-align: center;
+}
+.posts figure{
     text-align: center;
 }
 
-@media(max-width:1200px){
+/* footer*/
+footer{
+    color: #8742d1;
+    text-align: center;
+    margin: 30px;
+    font-style: italic;
+    font-size: 8pt;
+}
+
+/* media*/
+@media(max-width:1000px){
     .container{
         flex-direction: column;
         align-items: center;
@@ -140,14 +200,11 @@ footer{
     .content section{
         width: 320px;
     }
-
-}
-@media(max-width:800px){
-
-    .content, .info{
-        width: 70%;
+    .projects ul{
+        flex-wrap: wrap;
     }
 
+    .posts img{
+        width: 90%;
+    }
 }
-
-
