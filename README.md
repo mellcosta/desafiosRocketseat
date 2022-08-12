@@ -1,9 +1,3 @@
-
-<style>
-    a{
-        color:white;
-    }
-</style>
 # Desafios Rocketseat
 
 > A [Rocketseat](https://rocketseat.com.br/) apresenta uma variedade de desafios fazendo o uso das tecnologias HTML, CSS e JavaScript, e estão ao alcance de todos os níveis:
@@ -40,7 +34,7 @@
 
 # Iniciante
 
-## [Desafios HTML](#índice-🚀)
+## Desafios HTML
 
 [<img src="./iniciante/assets/html.webp" alt="imagem HTML" width="200px" height="100px" >](https://mellcosta.github.io/desafiosRocketseat/iniciante/desafios_html/desafios_html.html)
 
@@ -48,7 +42,7 @@
 
 ---
 
-## [Social Tree](#índice-🚀)
+## Social Tree
 
 [<img src="./iniciante/assets/social-tree-image.webp" alt="imagem Social Tree" width="200px" height="100px" >](https://mellcosta.github.io/desafiosRocketseat/iniciante/social_tree/social_tree.html)
 
@@ -58,7 +52,7 @@
 
 ---
 
-## [RocketNews](#índice-🚀)
+## RocketNews
 
 [<img src="./iniciante/assets/rocketnews-image.webp" alt="imagem Social Tree" width="200px" height="100px" >](https://mellcosta.github.io/desafiosRocketseat/iniciante/rocket_news/rocket_news.html)
 
@@ -68,7 +62,7 @@
 
 ---
 
-* ## [Página de Receitas](#índice-🚀)
+* ## Página de Receitas
 
 [<img src="./iniciante/assets/cookbook-image.webp" alt="imagem Página de Receitas" width="200px" height="100px" >](https://mellcosta.github.io/desafiosRocketseat/iniciante/receitas/receitas.html)
 
