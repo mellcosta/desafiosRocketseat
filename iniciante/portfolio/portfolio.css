@@ -17,28 +17,46 @@ body{
     background-color: #22212C;
     font-family:'Merriweather', sans-serif;
     color: #837E9F;
-    
 }
+
+a{
+    text-decoration: none;
+    color: #837E9F;
+}
+a:hover{
+    color: #CB92B1;
+}
+
+li{
+    list-style: none;
+}
+
 .container{
     display: flex;
-    flex-direction: column;
-    gap: 2em;
-    margin: 20px;
+    flex-wrap: wrap;
     font-size: 9pt;
     line-height: 30px;
+    margin: 20px;
 }
-.container div{
+
+.info{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 2em;
+    width: 30%;
+}
+.info section{
     border: 1px solid #302F3D;
     background-color: #302F3D;
     border-radius: 10px;
-    width: 27%;
+    width: 320px;
     padding: 20px;
 }
 .profile{
     text-align: center;
 }
 .profile img{
-    border: 2px solid green;
     border-radius: 50%;
     width: 130px;
     height: 140px;
@@ -48,8 +66,7 @@ body{
     flex-direction: column;
 }
 .social a{
-    text-decoration: none;
-    color: #837E9F;
+    padding-left: 30px;
 }
 .social img{
    margin-right: 10px;
@@ -60,59 +77,77 @@ body{
     
 }
 .techs li{
-    list-style: none;
     background-color: #CB92B1;
     border-radius: 20px;
-    margin: 10px;
-    flex-basis: 70px;
+    margin: 5px;
+    width: 70px;
     color: #22212C;
     text-align: center;
     font-size: 8px;
 }
 
 .experience dl, .school dl{
-    padding-left: 30px;
+    padding-left: 25px;
+}
+.experience dt, .school dt{
+    font-weight: 700;
 }
 
 .content{
-    position: absolute;
-    left: 33%;
-    margin: 43px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     gap: 2em;
-
+    width: 30%;
+    flex-grow: 2;
+    
 }
-.content > a{
-    text-decoration: none;
-    color: #837E9F;
-    padding: 10px;
+
+.content div, li{
     background-color: #302F3D;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.content div{
+    padding: 10px;
     border-radius: 8px;
     font-weight: 900;
+    font-size: 12pt;
+    width: 100%;
+    margin-bottom: 10px;
 }
-.projects{
+.projects ul{
     display: flex;
     gap: 2em;
 }
-.projects .project{
-    flex-grow: 1;
-    padding: 15px;
+
+.posts ul li{
+    margin-top: 10px;
 }
-.project a{
-    text-decoration: none;
-    color: #837E9F;
-    font-size: 12pt;
-}
-.project p{
-    line-height: 18px;
-    font-size: 9pt;
-}
-.project section{
+
+footer{
     text-align: center;
 }
-.project img{
-    width: 15px;
-    margin-right: 5px;
+
+@media(max-width:1200px){
+    .container{
+        flex-direction: column;
+        align-items: center;
+        gap: 2em;
+        justify-content: center;
+    }
+    .content section{
+        width: 320px;
+    }
+
 }
+@media(max-width:800px){
+
+    .content, .info{
+        width: 70%;
+    }
+
+}
+
+
