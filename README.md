@@ -62,7 +62,7 @@
 
 ---
 
-* ## Página de Receitas
+## Página de Receitas
 
 [<img src="./iniciante/assets/cookbook-image.webp" alt="imagem Página de Receitas" width="200px" height="100px" >](https://mellcosta.github.io/desafiosRocketseat/iniciante/receitas/receitas.html)
 
@@ -73,7 +73,7 @@
 
 ---
 
-* ## Portfólio
+## Portfólio
 
 [<img src="./iniciante/assets/portfolio.webp" alt="imagem Portfolio" width="200px" height="100px" >](https://mellcosta.github.io/desafiosRocketseat/iniciante/portfolio/portfolio.html)
 
@@ -86,7 +86,7 @@
 
 # Intermediário
 
-* ## Countdown
+## Countdown
 
 
 [<img src="./intermediario/assets/countdown_read.webp" alt="imagem Countdown" width="200px" height="100px" >](https://mellcosta.github.io/desafiosRocketseat/intermediario/countdown/countdown.html)
