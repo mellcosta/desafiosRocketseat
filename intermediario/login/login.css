@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+:root {
+    --text-base: #afb6c2;
+    --text-title: #d4ccb6;
+    --background: #191816;
+    --form-background: #24221f;
+    --primary-color: #ffc632;
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #191816;
+    color: #afb6c2;
+    font-size: 12px;
+    line-height: 30px;
+}
+
+/*.container*/
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    height: 600px;
+}
+
+/*.login*/
+.login{
+    flex-basis: 50%;
+    background-color: #191816;
+    padding: 60px;
+}
+.login main{
+    background-color: #24221f;
+    border-radius: 5px;
+    padding: 50px 100px;
+    margin:100px 50px 50px;
+}
+main .head .title{
+    display: flex;
+    color: #d4ccb6;
+}
+
+/*form*/
+.login form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 20px;
+}
+form label{
+    line-height: 30px;
+}
+form label section{
+    display: flex;
+    gap: 3px;
+    border: 1px solid #afb6c2;
+    border-radius: 3px;
+    padding: 7px;
+}
+section .input{
+    background-color: #24221f;
+    width: 100%;
+    border: none;
+}
+form button{
+    background-color: #ffc632;
+    border:5px solid #ffc632;
+    border-radius: 3px;
+    padding: 10px;
+}
+/*.figure*/
+.figure{
+    flex-grow: 2;
+    background-image: url(./images/side-image.jpg);
+    background-size: cover;
+}
+
+/*footer*/
+footer{
+    text-align: center;
+    color: #d4ccb6;
+}
