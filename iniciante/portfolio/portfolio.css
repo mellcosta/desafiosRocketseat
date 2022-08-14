@@ -78,6 +78,8 @@ p{
     flex-direction: column;
 }
 .social a{
+    display: flex;
+    align-items: center;
     padding-left: 30px;
 }
 .social img{
@@ -146,7 +148,8 @@ p{
     width: 100%;
 }
 .projects li a{
-    text-align: center;
+    display: flex;
+    gap: 1em;
     font-size: 12pt;
     padding: 15px;
 }
@@ -154,6 +157,11 @@ p{
     display: flex;
     justify-content: space-between;
     font-size: 9px;
+}
+.projects aside span,em{
+    display: flex;
+    align-items: center;
+    gap: .4em;
 }
 
 /* .posts*/
