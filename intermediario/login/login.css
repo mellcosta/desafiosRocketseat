@@ -22,6 +22,11 @@ body{
     line-height: 30px;
 }
 
+a{
+    color: #ffc632;
+    text-decoration: none;
+}
+
 /*.container*/
 .container{
     display: flex;
@@ -31,15 +36,15 @@ body{
 
 /*.login*/
 .login{
-    flex-basis: 50%;
+    flex-basis: 52%;
     background-color: #191816;
     padding: 60px;
 }
 .login main{
     background-color: #24221f;
     border-radius: 5px;
-    padding: 50px 100px;
-    margin:100px 50px 50px;
+    padding: 50px 60px;
+    margin:100px 30px 50px;
 }
 main .head .title{
     display: flex;
@@ -47,7 +52,7 @@ main .head .title{
 }
 
 /*form*/
-.login form{
+form{
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -61,23 +66,80 @@ form label section{
     gap: 3px;
     border: 1px solid #afb6c2;
     border-radius: 3px;
-    padding: 7px;
+    padding: 10px;
+   
+}
+form label section:focus-within {
+    border: 2px solid #ffc632;
 }
 section .input{
+    margin-left: 30px;
     background-color: #24221f;
-    width: 100%;
+    width: 80%;
     border: none;
 }
+section .input:focus{
+    outline: 0;
+}
+
+/*Inputs*/
+.email{
+    background-image: url(./images/mail.svg);
+    background-repeat: no-repeat;
+    background-position: 10px 7px;
+}
+.email:focus-within{
+    background-image: url(./images/mail-focus.svg);
+}
+.password{
+    background-image: url(./images/lock.svg);
+    background-repeat: no-repeat;
+    background-position: 10px 7px;
+}
+.password:focus-within{
+    background-image: url(./images/lock-focus.svg);
+}
+
+/*checkbox*/
+.check{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.check  span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.checkbox{
+    margin: 5px;
+    padding: 8px;
+    border: 1px solid;
+    border-radius: 5px;
+    width: 10px;
+}
+.checkbox:{
+    background-image: url(./images/check.svg);
+    background-color: #ffc632;
+}
+
+/*Button*/
 form button{
     background-color: #ffc632;
     border:5px solid #ffc632;
     border-radius: 3px;
     padding: 10px;
 }
+
+form span{
+    text-align: center;
+}
+
 /*.figure*/
 .figure{
-    flex-grow: 2;
+    flex-grow: 1;
     background-image: url(./images/side-image.jpg);
+    background-repeat: no-repeat;
     background-size: cover;
 }
 
@@ -85,4 +147,8 @@ form button{
 footer{
     text-align: center;
     color: #d4ccb6;
+}
+
+@media(){
+
 }

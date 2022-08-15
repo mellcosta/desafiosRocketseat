@@ -100,3 +100,50 @@ font-family: Roboto
 Font Weight: 400 e 500
 
 Você pode encontrar a fonte no [Google Fonts](https://fonts.google.com/)
+
+##  **:focus-within**
+
+> A pseudo-classe CSS :focus-within representa um elemento que recebeu o foco ou contém um elemento que recebeu o foco. Em outras palavras, isto representa um elemento que é correspondido por si só pela pseudo-classe :focus ou tem um descendente que é correspondido por :focus. (Isto inclui descendentes em shadow trees.)
+
+```
+/* Seleciona uma <div> quando um de seus descendentes é focado */
+div:focus-within {
+  background: cyan;
+}
+```
+Este seletor é útil, pegando um exemplo comum, para destacar um todo ```<form> ```container quando o usuário focar em um de seus campos ```<input>.```
+
+### Exemplo
+Neste exemplo, o formulário receberá estilos de coloração especiais quando o input de texto recebe o foco
+
+HTML
+````html
+<p>Tente digitar neste formulário.</p>
+
+<form>
+  <label for="given_name">Given Name:</label>
+  <input id="given_name" type="text">
+  <br>
+  <label for="family_name">Family Name:</label>
+  <input id="family_name" type="text">
+</form>
+````
+
+CSS
+````css
+form {
+  border: 1px solid;
+  color: gray;
+  padding: 4px;
+}
+
+form:focus-within {
+  background: #ff8;
+  color: black;
+}
+
+input {
+  margin: 4px;
+}
+````
+
