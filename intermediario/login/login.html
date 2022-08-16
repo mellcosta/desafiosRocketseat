@@ -25,12 +25,17 @@
                         <label for="email">E-mail
                             <section class="email"> 
                                 <input type="email" name="email" id="email" class="input"
-                                placeholder="Digite seu e-mail" >   
+                                        placeholder="Digite seu e-mail" 
+                                        pattern="+@+"
+                                        title="nome@seudominio.com"
+                                        required>   
                             </section>
                         </label>
                         <label for="password">Senha
                             <section class="password">
-                                <input type="password" name="password" id="password" class="input" placeholder="Digite sua senha">
+                                <input type="password" name="password" id="password" class="input" 
+                                        placeholder="Digite sua senha"
+                                        required>
                                 <img src="./images/eye.svg" alt="">
                             </section>
                         </label>

@@ -44,7 +44,7 @@ a{
     background-color: #24221f;
     border-radius: 5px;
     padding: 50px 60px;
-    margin:100px 30px 50px;
+    margin:80px 30px 20px;
 }
 main .head .title{
     display: flex;
@@ -75,6 +75,7 @@ form label section:focus-within {
 section .input{
     margin-left: 30px;
     background-color: #24221f;
+    color: #afb6c2;
     width: 80%;
     border: none;
 }
@@ -110,15 +111,16 @@ section .input:focus{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
 }
 .checkbox{
     margin: 5px;
-    padding: 8px;
+    padding: 9px;
     border: 1px solid;
     border-radius: 5px;
     width: 10px;
 }
-.checkbox:{
+.checkbox:hover{
     background-image: url(./images/check.svg);
     background-color: #ffc632;
 }
@@ -147,8 +149,28 @@ form span{
 footer{
     text-align: center;
     color: #d4ccb6;
+    font-style: italic;
 }
 
-@media(){
-
+@media(max-width:1030px){
+    .login{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        flex-basis: 100%;
+        background-color: #191816;
+        padding: 20px;
+        margin: 20px;
+    }
+    .login header{
+        padding-right: 150px;
+    }
+    .login main{
+        width: 400px;
+        padding: 5px auto;
+        margin: 10px auto;
+        background-color: #191816;
+    }
+    
 }
