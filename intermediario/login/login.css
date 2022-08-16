@@ -31,7 +31,7 @@ a{
 .container{
     display: flex;
     flex-wrap: wrap;
-    height: 600px;
+    height: 800px;
 }
 
 /*.login*/
@@ -43,6 +43,7 @@ a{
 .login main{
     background-color: #24221f;
     border-radius: 5px;
+    width: 400px;
     padding: 50px 60px;
     margin:80px 30px 20px;
 }
@@ -167,7 +168,6 @@ footer{
         padding-right: 150px;
     }
     .login main{
-        width: 400px;
         padding: 5px auto;
         margin: 10px auto;
         background-color: #191816;
