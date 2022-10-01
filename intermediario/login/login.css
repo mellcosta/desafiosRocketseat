@@ -18,7 +18,7 @@ body{
     font-family: 'Poppins', sans-serif;
     background-color: #191816;
     color: #afb6c2;
-    font-size: 12px;
+    font-size: 10pt;
     line-height: 30px;
 }
 
@@ -30,25 +30,34 @@ a{
 /*.container*/
 .container{
     display: flex;
-    flex-wrap: wrap;
-    height: 800px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 /*.login*/
 .login{
-    flex-basis: 52%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+    width: 100%;
     background-color: #191816;
-    padding: 60px;
+    padding-top: 50px;
+}
+
+.logo {
+    position: relative;
+    right: 30%;
 }
 .login main{
-    background-color: #24221f;
-    border-radius: 5px;
-    width: 400px;
-    padding: 50px 60px;
-    margin:80px 30px 20px;
+    /*background-color: #24221f;*/
+    width: 90%;
+    padding: 10px;
 }
-main .head .title{
+main header .title{
     display: flex;
+    gap: 10px;
     color: #d4ccb6;
 }
 
@@ -73,9 +82,12 @@ form label section{
 form label section:focus-within {
     border: 2px solid #ffc632;
 }
+form label section:hover {
+    border: 2px solid #ffc632;
+}
 section .input{
     margin-left: 30px;
-    background-color: #24221f;
+    background-color: #191816;
     color: #afb6c2;
     width: 80%;
     border: none;
@@ -108,30 +120,44 @@ section .input:focus{
     align-items: center;
     justify-content: space-between;
 }
-.check  span{
+.check > div{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+    gap: 10px;
 }
-.checkbox{
-    margin: 5px;
-    padding: 9px;
+
+.check div label{
+    cursor: pointer;
+}
+
+.check div label input[type="checkbox"]{
+    display: none;
+}
+.check div label span{
+    padding: 1px 10px;
     border: 1px solid;
     border-radius: 5px;
-    width: 10px;
+    position: relative;
+    user-select: none;
+    overflow: hidden;
 }
-.checkbox:hover{
-    background-image: url(./images/check.svg);
-    background-color: #ffc632;
+.check div label span:hover{
+    border-color: #ffc632;
+}
+.check div label input[type="checkbox"]:checked ~ span{
+   background-image: url(./images/check.svg);
+   background-color: #ffc632;
 }
 
 /*Button*/
-form button{
+form > button{
     background-color: #ffc632;
     border:5px solid #ffc632;
     border-radius: 3px;
     padding: 10px;
+    cursor: pointer;
 }
 
 form span{
@@ -140,10 +166,7 @@ form span{
 
 /*.figure*/
 .figure{
-    flex-grow: 1;
-    background-image: url(./images/side-image.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    display: none;
 }
 
 /*footer*/
@@ -153,24 +176,37 @@ footer{
     font-style: italic;
 }
 
-@media(max-width:1030px){
+/*Responsividade*/
+@media screen and (min-width:600px){
+    .container{
+        margin: 50px auto;
+        width: 500px;
+    }
+}
+
+@media screen and (min-width:900px){
+    .container{
+        margin:0;
+        width: 100%;
+        flex-direction: row;
+        height: 100vh;
+    }
+
     .login{
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        align-items: center;
-        flex-basis: 100%;
-        background-color: #191816;
-        padding: 20px;
-        margin: 20px;
+        width: 50%;
+        height: 100%;
     }
-    .login header{
-        padding-right: 150px;
-    }
+
     .login main{
-        padding: 5px auto;
-        margin: 10px auto;
-        background-color: #191816;
+        width: 60%;
     }
-    
+
+    .figure{
+        display: flex;
+        width: 50%;
+        height: 100%;
+        padding: 50px;
+        background: url(./images/side-image.jpg) no-repeat;
+        background-size: cover;
+    }
 }

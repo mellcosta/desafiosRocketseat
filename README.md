@@ -26,7 +26,7 @@
 ### [Nível Intermediário](#intermediário) 
 
 * [Desafio: Countdown](#countdown)
-* [Desafio: Logim From CSS](#login-from-css)
+* [Desafio: Login From CSS](#login-from-css)
 
 ### [Nível Avançado](#)
 

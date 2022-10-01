@@ -10,47 +10,51 @@
 <body>
     <div class="container">
         <div class="login">
-            <header>
+            <div class="logo">
                 <img src="./images/logo.svg" alt="">
-            </header>
+            </div>
             <main>
-                <div class="head">
+                <header>
                     <section class="title">
                         <img src="./images/log-in.svg" alt="">
-                    <h1>Faça Seu Login</h1>
+                        <h1>Faça Seu Login</h1>
                     </section>
                     <p>Entre com suas informações de cadastro.</p>
-                </div>
-                    <form>
-                        <label for="email">E-mail
-                            <section class="email"> 
-                                <input type="email" name="email" id="email" class="input"
+                </header>
+                <form>
+                    <label for="email">E-mail
+                        <section class="email"> 
+                            <input type="email" name="email" id="email" class="input"
                                         placeholder="Digite seu e-mail" 
                                         pattern="+@+"
                                         title="nome@seudominio.com"
                                         required>   
-                            </section>
-                        </label>
-                        <label for="password">Senha
-                            <section class="password">
-                                <input type="password" name="password" id="password" class="input" 
-                                        placeholder="Digite sua senha"
-                                        required>
-                                <img src="./images/eye.svg" alt="">
-                            </section>
-                        </label>
-                        <section class="check">
-                            <span>
-                                <div class="checkbox"></div>
-                                <p>Lembre-me</p>
-                            </span>
-                           <a href="">Esqueci minha senha</a>
+                        </section>
+                    </label>
+                    <label for="password">Senha
+                        <section class="password">
+                            <input type="password" name="password" id="password" class="input" 
+                            placeholder="Digite sua senha"
+                            required>
+                            <img src="./images/eye.svg" id="eye">
+                        </section>
+                    </label>
+                    <section class="check">
+                        <div>
+                            <label>
+                                <input type="checkbox">
+                                <span></span>
+                            </label>
+                            
+                            <p>Lembre-me</p>
+                        </div>
+                        <a href="">Esqueci minha senha</a>
                         </section>
                         <button type="submit">ENTRAR</button>
                         <span>
                             <a href="#">Não tem uma conta? <strong>Registre-se</strong> </a> 
                         </span>
-                    </form>
+                </form>
             </main>
             <footer>By @mellcosta</footer>
         </div>

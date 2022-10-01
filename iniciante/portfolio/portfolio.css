@@ -38,11 +38,12 @@ p{
 .container{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     gap: 1em;
-    font-size: 10pt;
+    font-size: 12pt;
     line-height: 30px;
-    margin: 10px auto;
-    padding: 20px;
+    padding-top: 30px;
 }
 
 /*.info*/
@@ -50,14 +51,16 @@ p{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     gap: 2em;
-    width: 350px;
+    width: 90%;
 }
 .info section{
     border: 1px solid #302F3D;
     background-color: #302F3D;
     border-radius: 20px;
-    width: 320px;
+    width: 100%;
     padding: 20px;
 }
 
@@ -67,8 +70,8 @@ p{
 }
 .profile img{
     border-radius: 50%;
-    width: 130px;
-    height: 130px;
+    width: 120px;
+    height: 120px;
     border:5px double #8742d1;
 }
 
@@ -81,7 +84,7 @@ p{
 .social a{
     display: flex;
     align-items: center;
-    padding-left: 30px;
+    padding-left: 20px;
 }
 .social img{
    margin-right: 10px;
@@ -90,17 +93,19 @@ p{
 /*.techs*/
 .techs ul {
     display: flex;
+    align-items: center;
+    justify-content: center;
     flex-wrap: wrap;
-    line-height: 10px;
+    line-height: 12px;
     gap: 1em;
-    padding: 10px;
-    font-size: 9px;
+    font-size: 8pt;
+    margin: 10px;
 }
 .techs li{
     background-color: #CB92B1;
     color: #22212C;
     padding: 10px;
-    width: 70px;
+    width: 75px;
     text-align: center;
     border-radius: 60px;
     padding: 8px;
@@ -112,6 +117,7 @@ p{
 }
 .experience dt, .school dt{
     font-weight: 700;
+    font-size: 17px;
 }
 
 /*.content*/
@@ -120,8 +126,7 @@ p{
     flex-wrap: wrap;
     flex-direction: column;
     gap: 1em;
-    width: 350px;
-    flex-grow: 2;
+    width: 90%;
 }
 .content div, li{
     background-color: #302F3D;
@@ -133,7 +138,6 @@ p{
     border-radius: 20px;
     font-weight: 900;
     font-size: 12pt;
-    width: 100%;
     margin-bottom: 10px;
 }
 .content div a{
@@ -141,47 +145,55 @@ p{
 }
 
 /* .projects*/
+.projects{
+    width: 100%;
+}
 .projects ul{
     display: flex;
-    gap: 0.5em;
-}
-.projects li{
-    width: 100%;
+    flex-flow: row wrap;
+    gap: 1em;
 }
 .projects li a{
     display: flex;
-    gap: 1em;
+    gap: 5px;
     font-size: 12pt;
-    padding: 15px;
 }
 .projects aside{
     display: flex;
     justify-content: space-between;
     font-size: 9px;
 }
-.projects aside span,em{
+.projects aside span{
     display: flex;
     align-items: center;
-    gap: .4em;
+    gap: 1em;
+}
+.projects aside strong{
+    display: flex;
+    align-items: center;
+    gap: 2px;
 }
 
 /* .posts*/
+.posts{
+    width: 100%;
+}
 .posts ul li{
     display: flex;
     flex-wrap: wrap;
     gap: 3em;
     margin-top: 20px;
-    padding: 20px;
+    padding: 10px;
     line-height: 25px;
 }
 .posts .pic img{
-    border: 2px solid #CB92B1;
-    width: 40px;
-    height: 40px;
+    border: 2px double #CB92B1;
+    width: 50px;
+    height: 50px;
     border-radius: 100%;
 }
 .posts img{
-    width: 500px;
+    width: 90%;
     border-radius: 10px;
     text-align: center;
 }
@@ -195,25 +207,40 @@ footer{
     text-align: center;
     margin: 30px;
     font-style: italic;
-    font-size: 8pt;
+    font-size: 14pt;
 }
 
 /* media*/
-@media(max-width:1000px){
-    .container{
+@media(min-width:500px){
+    body{
+        display: flex;
         flex-direction: column;
         align-items: center;
-        gap: 2em;
         justify-content: center;
     }
-    .content section{
-        width: 320px;
+    .container{
+        width: 500px;
     }
-    .projects ul{
-        flex-wrap: wrap;
+}
+@media(min-width:900px){
+    
+    .container{
+        width: 95%;
+        flex-flow: row;
+        align-items: flex-start;
     }
 
-    .posts img{
-        width: 90%;
+    .info{
+        flex-basis: 50%;
+    }
+
+    .projects ul{
+        width: 100%;
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+    
+    .projects ul li{
+        width: 48%;
     }
 }
