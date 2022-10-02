@@ -33,6 +33,7 @@ a{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    user-select: none;
 }
 
 /*.login*/
@@ -174,7 +175,7 @@ footer{
     text-align: center;
     color: #d4ccb6;
     font-style: italic;
-    margin-top: 20vh;
+    margin-top: 12vh;
 }
 
 /*Responsividade*/
@@ -200,6 +201,13 @@ footer{
 
     .login main{
         width: 60%;
+        background-color: #24221f;
+        border-radius: 10px;
+        padding: 50px;
+    }
+
+    section .input{
+        background-color: #24221f;
     }
 
     .figure{

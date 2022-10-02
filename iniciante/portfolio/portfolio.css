@@ -71,7 +71,7 @@ p{
 .profile img{
     border-radius: 50%;
     width: 120px;
-    height: 120px;
+    height: 125px;
     border:5px double #8742d1;
 }
 
@@ -192,7 +192,7 @@ p{
 }
 .posts .pic img{
     border: 2px double #CB92B1;
-    width: 50px;
+    width: 45px;
     height: 50px;
     border-radius: 100%;
 }
