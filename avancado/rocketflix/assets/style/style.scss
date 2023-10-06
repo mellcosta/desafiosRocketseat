@@ -1,4 +1,26 @@
-$color: #455;
+$text-color: #FFFCF9;
+$btn-color: #E9E6E3;
+$black: #000000;
+$dark: #1A1A1A;
+$gray: #8C8C8C;
+
+
+@mixin flexBox($flex_direction, $justify_content){
+    display: flex;
+    flex-direction: $flex_direction;
+    align-items: center;
+    justify-content: $justify_content;
+}
+
+@mixin screenSize ($width, $height) {
+    width: $width;
+    height: $height;
+}
+
+@mixin Font($size, $weight) {
+    font-size: $size;
+    font-weight: $weight;
+}
 
 * {
     margin: 0; 
@@ -7,10 +29,50 @@ $color: #455;
 }
 
 body {
+    @include flexBox(column, flex-start);
+    @include screenSize(100%, 100vh);
+
     font-family: 'Poppins', sans-serif; 
     background: linear-gradient(50deg, #1E46A3, #000000, #C12A23);
+    color: $text-color;
+}
 
-    width: 100%;
-    height: 100vh;
+a {
+    text-decoration: none;
+    color: $text-color;
+}
 
+.container {
+    @include flexBox(column, center);
+    @include screenSize(70%, auto);
+    @include Font(14px, 100);
+
+    margin: 15vh;
+
+    h1 {
+        @include Font(40px, bold);
+    }
+
+    .finder-container {
+        @include flexBox(column, center);
+        @include screenSize(45%, auto);
+        text-align: center;
+        padding: 20px;
+    }
+
+    .btn {
+        @include flexBox(row, center);
+        @include screenSize(180px, 45px);
+        @include Font(12px, bold);
+        
+        background: $btn-color;
+        color: $black;
+        margin: 2em;
+        padding: 5px;
+        border: 2px solid #1A1A1A;
+        border-radius: 5px;
+        gap: 10px;
+        cursor: pointer;
+    }
+    
 }
