@@ -1,0 +1,16 @@
+@mixin flexBox($flex_direction, $justify_content){
+    display: flex;
+    flex-direction: $flex_direction;
+    align-items: center;
+    justify-content: $justify_content;
+}
+
+@mixin screenSize ($width, $height) {
+    width: $width;
+    height: $height;
+}
+
+@mixin Font($size, $weight) {
+    font-size: $size;
+    font-weight: $weight;
+}

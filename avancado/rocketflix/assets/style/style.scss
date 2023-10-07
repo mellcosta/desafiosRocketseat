@@ -1,28 +1,6 @@
-$text-color: #FFFCF9;
-$btn-color: #E9E6E3;
-$black: #000000;
-$dark: #1A1A1A;
-$gray: #8C8C8C;
-$bg-red: #C12A23;
-$bg-blue: #1E46A3;
-
-
-@mixin flexBox($flex_direction, $justify_content){
-    display: flex;
-    flex-direction: $flex_direction;
-    align-items: center;
-    justify-content: $justify_content;
-}
-
-@mixin screenSize ($width, $height) {
-    width: $width;
-    height: $height;
-}
-
-@mixin Font($size, $weight) {
-    font-size: $size;
-    font-weight: $weight;
-}
+@import "./variables";
+@import "./mixin";
+@import "./responsive";
 
 * {
     margin: 0; 
@@ -33,10 +11,15 @@ $bg-blue: #1E46A3;
 body {
     @include flexBox(column, flex-start);
     @include screenSize(100%, 100vh);
+    min-height: 100%;
 
     font-family: 'Poppins', sans-serif; 
     background: linear-gradient(50deg, $bg-blue, $black, $bg-red);
     color: $text-color;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 a {
@@ -50,14 +33,16 @@ a {
     @include Font(14px, 100);
 
     margin: 15vh;
+    text-align: center;
 
     h1 {
         @include Font(40px, bold);
     }
 
+    
     .finder-container {
         @include flexBox(column, center);
-        @include screenSize(80%, auto);
+        @include screenSize(90%, auto);
         padding: 20px;
 
         #movie-info {
@@ -75,7 +60,7 @@ a {
                 @include flexBox(column, space-between);
                 align-items: flex-start;
                 gap: 1em;
-                width: 60%;
+                width: 80%;
                 text-align: justify;
             }
         }
@@ -97,10 +82,10 @@ a {
 
         span {
             max-width: 400px;
-            text-align: center;
         }
 
     }
+    @include Responsive();
 
-    
 }
+

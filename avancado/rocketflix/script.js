@@ -23,7 +23,6 @@ document.addEventListener("DOMContentLoaded", function () {
             movieInfo.style.alignItems = "flex-start";
             movieInfo.style.justifyContent = "center";
             movieInfo.style.gap = "2em";
-            movieInfo.style.flexWrap = "wrap";
 
         } catch (error) {
             console.error('Not Found', error);

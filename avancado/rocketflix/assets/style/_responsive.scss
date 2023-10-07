@@ -1,0 +1,43 @@
+@import "./variables";
+@import "./mixin";
+
+@mixin Responsive() {
+    @media screen and (max-width: 900px) {
+
+        @include screenSize(90%, auto);
+
+        margin: 10vh;
+
+        .finder-container {
+            @include screenSize(90%, auto);
+
+            .movie-content{
+                width: 100%;
+            }
+        }
+    }
+    @media screen and (max-width: 600px) {
+
+        @include screenSize(90%, auto);
+        .logo {
+            width: 70%;
+        }
+        h1 {
+            @include Font(30px, bold);
+        }
+
+        .finder-container {
+            #movie-info{
+                flex-wrap: wrap;
+                gap: 10px;
+
+                .movie-content{
+                    width: 100%;
+                }
+            }
+        }
+        span {
+            max-width: fit-content;
+        }
+    }
+}
