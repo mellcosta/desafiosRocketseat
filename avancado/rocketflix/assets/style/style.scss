@@ -3,6 +3,8 @@ $btn-color: #E9E6E3;
 $black: #000000;
 $dark: #1A1A1A;
 $gray: #8C8C8C;
+$bg-red: #C12A23;
+$bg-blue: #1E46A3;
 
 
 @mixin flexBox($flex_direction, $justify_content){
@@ -33,7 +35,7 @@ body {
     @include screenSize(100%, 100vh);
 
     font-family: 'Poppins', sans-serif; 
-    background: linear-gradient(50deg, #1E46A3, #000000, #C12A23);
+    background: linear-gradient(50deg, $bg-blue, $black, $bg-red);
     color: $text-color;
 }
 
@@ -55,24 +57,50 @@ a {
 
     .finder-container {
         @include flexBox(column, center);
-        @include screenSize(45%, auto);
-        text-align: center;
+        @include screenSize(80%, auto);
         padding: 20px;
+
+        #movie-info {
+            display: none;
+            // @include flexBox(row, center);
+            // align-items: flex-start;
+            // gap: 2em;
+            // flex-wrap: wrap;
+
+            #movie-img {
+                @include screenSize(170px, 240px )
+            }
+
+            .movie-content {
+                @include flexBox(column, space-between);
+                align-items: flex-start;
+                gap: 1em;
+                width: 60%;
+                text-align: justify;
+            }
+        }
+
+        .btn {
+            @include flexBox(row, center);
+            @include screenSize(180px, 45px);
+            @include Font(12px, bold);
+            
+            background: $btn-color;
+            color: $black;
+            margin: 2em;
+            padding: 5px;
+            border: 2px solid $dark;
+            border-radius: 5px;
+            gap: 10px;
+            cursor: pointer;
+        }
+
+        span {
+            max-width: 400px;
+            text-align: center;
+        }
+
     }
 
-    .btn {
-        @include flexBox(row, center);
-        @include screenSize(180px, 45px);
-        @include Font(12px, bold);
-        
-        background: $btn-color;
-        color: $black;
-        margin: 2em;
-        padding: 5px;
-        border: 2px solid #1A1A1A;
-        border-radius: 5px;
-        gap: 10px;
-        cursor: pointer;
-    }
     
 }

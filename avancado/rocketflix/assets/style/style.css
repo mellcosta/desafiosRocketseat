@@ -41,12 +41,28 @@ a {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 45%;
+  width: 80%;
   height: auto;
-  text-align: center;
   padding: 20px;
 }
-.container .btn {
+.container .finder-container #movie-info {
+  display: none;
+}
+.container .finder-container #movie-info #movie-img {
+  width: 170px;
+  height: 240px;
+}
+.container .finder-container #movie-info .movie-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1em;
+  width: 60%;
+  text-align: justify;
+}
+.container .finder-container .btn {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -63,4 +79,8 @@ a {
   border-radius: 5px;
   gap: 10px;
   cursor: pointer;
+}
+.container .finder-container span {
+  max-width: 400px;
+  text-align: center;
 }/*# sourceMappingURL=style.css.map */

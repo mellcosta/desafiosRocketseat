@@ -17,15 +17,25 @@
         <a href="#" class="logo"><img src="./assets/img/logo.svg" alt="Logo"></a>
         <h1>Não sabe o que assistir?</h1>
         <div class="finder-container">
-            <button class="btn">
+
+            <div id="movie-info">
+                <img src="" alt="Movie Image" id="movie-img">
+                <div class="movie-content">
+                    <h2 id="movie-title"></h2>
+                    <p id="movie-description"></p>
+                </div>
+            </div>
+
+            <button class="btn" id="find-movie-btn">
                 <img src="./assets/img/logo.svg" alt="logo" width="35px">
                 <p>Encontrar filme</p>
             </button>
-            <p>
+            <span>
                 Clique em "Encontrar filme" que traremos informações
                 de algum filme para você assistir hoje.
-            </p>
+            </span>
         </div>
     </div>
+    <script src="./script.js"></script>
 </body>
 </html>
