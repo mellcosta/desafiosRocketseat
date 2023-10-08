@@ -32,28 +32,11 @@
 
 ---
 ---
-<style>
-    .table {
-        display: flex;
-        align-items: flex-start;
-        justify-content: flex-start;
-        gap: 1em;
-    }
-
-    .table section{
-        flex-basis: 50%;
-    }
-
-</style>
-
-<div class="container">
 <br>
 <br>
 <br>
 
 # Iniciante
-<div class="table">
-<section>
 
 ## Desafios HTML
 
@@ -63,9 +46,6 @@ ___
 
 > Esta é uma série de desafios básicos para praticar os conhecimentos em HTML.
 
-</section>
-<section>
-
 ## Social Tree
 
 [<img src="./iniciante/assets/social-tree-image.webp" alt="imagem Social Tree" width="200px" height="100px" >](https://mellcosta.github.io/desafiosRocketseat/iniciante/social_tree/social_tree.html)
@@ -73,13 +53,7 @@ ___
 ---
 ## 📸 [Captura de Ecrã](https://mellcosta.github.io/desafiosRocketseat/iniciante/assets/socialTree.PNG)
 
-</section>
-</div>
-
-____
-
-<div class="table">
-<section>
+___
 
 ## RocketNews
 
@@ -88,23 +62,13 @@ ____
 ---
 ## 📸 [Captura de Ecrã](https://mellcosta.github.io/desafiosRocketseat/iniciante/assets/rocket_news_mel.PNG)
 
-</section>
-<section>
-
 ## Página de Receitas
 
 [<img src="./iniciante/assets/cookbook-image.webp" alt="imagem Página de Receitas" width="200px" height="100px" >](https://mellcosta.github.io/desafiosRocketseat/iniciante/receitas/receitas.html)
 
 ---
 ## 📸 [Captura de Ecrã](https://mellcosta.github.io/desafiosRocketseat/iniciante/assets/calulú.PNG)
-
-</section>
-</div>
-
 ____
-
-<div class="table">
-<section>
 
 ## Portfólio
 
@@ -113,21 +77,13 @@ ____
 ---
 ## 📸 [Captura de Ecrã](https://mellcosta.github.io/desafiosRocketseat/iniciante/assets/portfolioMel.PNG)
 
-</section>
-</div>
-</div>
-
 ---
 ___
-
-<div class="container">
 <br>
 <br>
 <br>
 
 # Intermediário
-<div class="table">
-<section>
 
 ## Countdown
 
@@ -136,9 +92,6 @@ ___
 ---
 ## 📸 [Captura de Ecrã](https://mellcosta.github.io/desafiosRocketseat/intermediario/assets/countdownMel.PNG)
 
-</section>
-<section>
-
 ## Login From CSS
 
 [<img src="./intermediario/assets/login.webp" alt="imagem Login" width="200px" height="100px" >](https://mellcosta.github.io/desafiosRocketseat/intermediario/login/login.html)
@@ -146,20 +99,13 @@ ___
 ---
 ## 📸 [Captura de Ecrã](https://mellcosta.github.io/desafiosRocketseat/intermediario/assets/loginMel.PNG)
 
-</section>
-</div>
-</div>
-
 ---
 ___
-<div class="container">
 <br>
 <br>
 <br>
 
 # Avançado
-<div class="table">
-<section>
 
 ## Rocketflix
 
@@ -167,8 +113,5 @@ ___
 
 ---
 ## 📸 [Captura de Ecrã](https://mellcosta.github.io/desafiosRocketseat/avancado/assets/rocketflixMel.png)
-
-</section>
-</div>
 
 ---
