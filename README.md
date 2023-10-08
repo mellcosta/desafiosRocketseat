@@ -34,9 +34,9 @@
 ---
 <br>
 <br>
-<br>
 
 # Iniciante
+
 
 ## Desafios HTML
 
@@ -81,7 +81,6 @@ ____
 ___
 <br>
 <br>
-<br>
 
 # Intermediário
 
@@ -101,7 +100,6 @@ ___
 
 ---
 ___
-<br>
 <br>
 <br>
 
