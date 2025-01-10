@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function () {
     findMovieButton.addEventListener("click", async function () {
 
         try{
-            const response = await fetch(`https://api.themoviedb.org/3/movie/popular?api_key=${apiKey}&language=pt-BR&page=1`);
+            const response = await fetch(`https://api.themoviedb.org/3/movie/popular?api_key=${apiKey}&language=en-US&page=1`);
             const data = await response.json();
             const randomMovie = data.results[Math.floor(Math.random() * data.results.length)];
 
